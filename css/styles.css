@@ -73,7 +73,7 @@ nav h1 {
 }
 
 .pizza-card-description p {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-gray);
 
 }
@@ -108,18 +108,37 @@ footer {
     height: 120px;
     background-color: var(--color-red);
     color: var(--color-yellow );
-    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
+    
+    
 
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
+    font-size: 16px;
 }
 
-.footer-content a {
-    font-size: 16px;
+
+.container footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.reservados {
+    margin: 30px;
+}
+
+.reservados p {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+    
 }
 
 .footer-content address {
